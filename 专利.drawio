@@ -1,1 +1,91 @@
-<mxfile host="app.diagrams.net" modified="2021-11-25T12:07:57.910Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" version="15.8.2" etag="QZjbuWi5eZHq3AIrG28o" type="github"><diagram id="07Ak_U6x01JFz3OJq-oz">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-25T12:45:18.022Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="hcmFR4HeF7_703oiAlNl" version="15.8.2" type="github">
+  <diagram id="07Ak_U6x01JFz3OJq-oz" name="Page-1">
+    <mxGraphModel dx="1108" dy="484" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="znsuPr-670BJhFB4W4AY-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="znsuPr-670BJhFB4W4AY-1" target="znsuPr-670BJhFB4W4AY-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="znsuPr-670BJhFB4W4AY-1" value="&lt;span style=&quot;font-size: 12.0pt&quot;&gt;计算词法特征&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="100" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="znsuPr-670BJhFB4W4AY-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="znsuPr-670BJhFB4W4AY-2" target="znsuPr-670BJhFB4W4AY-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="znsuPr-670BJhFB4W4AY-2" value="&lt;span style=&quot;font-size: 12.0pt&quot;&gt;训练信息检索模型&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="190" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="znsuPr-670BJhFB4W4AY-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="znsuPr-670BJhFB4W4AY-3" target="znsuPr-670BJhFB4W4AY-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="znsuPr-670BJhFB4W4AY-3" value="&lt;span style=&quot;font-size: 12.0pt&quot;&gt;训练适合&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 12.0pt ; font-family: &amp;#34;times new roman&amp;#34; , serif&quot;&gt;bug&lt;/span&gt;&lt;span style=&quot;font-size: 12.0pt&quot;&gt;定位的&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 12.0pt ; font-family: &amp;#34;times new roman&amp;#34; , serif&quot;&gt;CodeBERT&lt;/span&gt;&lt;span style=&quot;font-size: 12.0pt&quot;&gt;语言模型&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="370" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="znsuPr-670BJhFB4W4AY-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="znsuPr-670BJhFB4W4AY-4" target="znsuPr-670BJhFB4W4AY-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="znsuPr-670BJhFB4W4AY-4" value="&lt;span style=&quot;font-size: 12.0pt&quot;&gt;计算函数级语义交互特征&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="460" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="znsuPr-670BJhFB4W4AY-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="znsuPr-670BJhFB4W4AY-5" target="znsuPr-670BJhFB4W4AY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="znsuPr-670BJhFB4W4AY-5" value="&lt;span style=&quot;font-size: 12.0pt&quot;&gt;构造函数级&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 12.0pt ; font-family: &amp;#34;times new roman&amp;#34; , serif&quot;&gt;bug&lt;/span&gt;&lt;span style=&quot;font-size: 12.0pt&quot;&gt;定位数据集&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="280" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="znsuPr-670BJhFB4W4AY-6" value="&lt;span style=&quot;font-size: 12.0pt&quot;&gt;训练特征融合模型对&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 12.0pt ; font-family: &amp;#34;times new roman&amp;#34; , serif&quot;&gt;TOP-K&lt;/span&gt;&lt;span style=&quot;font-size: 12.0pt&quot;&gt;源文件进行精排&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="540" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="znsuPr-670BJhFB4W4AY-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="znsuPr-670BJhFB4W4AY-14" target="znsuPr-670BJhFB4W4AY-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="znsuPr-670BJhFB4W4AY-14" value="&lt;span style=&quot;font-size: 12.0pt&quot;&gt;函数级bug定位数据集构造&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="513" y="100" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="znsuPr-670BJhFB4W4AY-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="znsuPr-670BJhFB4W4AY-15" target="znsuPr-670BJhFB4W4AY-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="znsuPr-670BJhFB4W4AY-15" value="&lt;span style=&quot;font-size: 12.0pt&quot;&gt;初始化模型参数&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="513" y="195" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="znsuPr-670BJhFB4W4AY-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="znsuPr-670BJhFB4W4AY-16" target="znsuPr-670BJhFB4W4AY-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="znsuPr-670BJhFB4W4AY-16" value="&lt;span style=&quot;font-size: 12.0pt&quot;&gt;分批次输入模型&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="513" y="286" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="znsuPr-670BJhFB4W4AY-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="znsuPr-670BJhFB4W4AY-17" target="znsuPr-670BJhFB4W4AY-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="znsuPr-670BJhFB4W4AY-17" value="&lt;span style=&quot;font-size: 12.0pt&quot;&gt;计算交叉熵损失函数，更新模型参数&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="513" y="376" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="znsuPr-670BJhFB4W4AY-18" value="&lt;span style=&quot;font-size: 12.0pt&quot;&gt;模型收敛 训练完成&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="513" y="466" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="znsuPr-670BJhFB4W4AY-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="znsuPr-670BJhFB4W4AY-24" target="znsuPr-670BJhFB4W4AY-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="znsuPr-670BJhFB4W4AY-24" value="&lt;span style=&quot;font-size: 12.0pt&quot;&gt;文件切割&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="284" y="656" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="znsuPr-670BJhFB4W4AY-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="znsuPr-670BJhFB4W4AY-25" target="znsuPr-670BJhFB4W4AY-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="znsuPr-670BJhFB4W4AY-25" value="&lt;span style=&quot;font-size: 12.0pt&quot;&gt;计算函数级语义交互特征&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="284" y="743" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="znsuPr-670BJhFB4W4AY-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="znsuPr-670BJhFB4W4AY-26" target="znsuPr-670BJhFB4W4AY-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="znsuPr-670BJhFB4W4AY-26" value="&lt;span style=&quot;font-size: 12.0pt&quot;&gt;计算词法特征&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="284" y="830" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="znsuPr-670BJhFB4W4AY-27" value="&lt;span style=&quot;font-size: 12.0pt&quot;&gt;训练特征融合信息检索模型&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="284" y="917" width="240" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
